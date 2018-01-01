@@ -1,0 +1,7 @@
+true: safe_string, bin_annot
+
+<radix.{ml,mli,cmo,cmx,cmi}>: package(fmt)
+<univ.{ml,mli,cmo,cmx,cmi}>: package(fmt)
+<hash.{ml,mli,cmo,cmx,cmi}>: package(fmt), package(digestif)
+<q.{ml,mli,cmo,cmx,cmi}>: package(fmt)
+<main.{ml,mli,cmo,cmx,byte,native}>: package(fmt), package(digestif.c), package(ocamlgraph), package(psq)
